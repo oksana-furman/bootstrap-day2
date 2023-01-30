@@ -1,0 +1,17 @@
+body {
+    background-color: #b7f7d9;
+}
+
+.navbar {
+    background-color: #2ef095;
+    color: black;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+.nav-item:hover {
+    background-color: #198754;
+}
