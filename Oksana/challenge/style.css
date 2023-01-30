@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+}
+
+.carousel-item>img {
+    height: 600px;
+}
+
+
+/* p {
+    background-color: rgb(109, 101, 101);
+    border-radius: 10px;
+} */

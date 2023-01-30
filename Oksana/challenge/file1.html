@@ -5,13 +5,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mount Everest</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mount Everest</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Booking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Offers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tours</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Destinations 
+                    </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Europe</a></li>
+                            <li><a class="dropdown-item" href="#">Asia</a></li>
+                            <li><a class="dropdown-item" href="#">Africa</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Popular destinations</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Client Recomendations</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
 
+    <div id="carouselDestinations" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselDestinations" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselDestinations" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselDestinations" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselDestinations" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://media.cntraveler.com/photos/598339c9f7c3f505c149b89b/master/w_1600%2Cc_limit/MalagaProvinceSpain_GettyImages-531203357.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Spain</h5>
+                    <p>Spain's most beautiful beach isn't on the the shores of Barcelona, a party-centric island like Ibiza, or even the revered Costa del Sol. You'll find it up north on San Sebastián, along with some of the country's finest cuisine. And
+                        if you're looking for culture, Madrid's world-class museums, like the Prado and Reina Sofia, and vibrant nightlife will keep you occupied for days on end.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://media.cntraveler.com/photos/598339c5b7a86962e8e27c59/master/w_1600%2Cc_limit/BarnevilleCarteretFrance_GettyImages-544442353.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>France</h5>
+                    <p>France, the most popular tourist destination in the world, doesn't really need explication; the country's wonders are many, with sites like the Eiffel Tower and Sacre Coeur in Paris, but beautiful vineyards and beaches outside the
+                        capital span from the English Channel to the Mediterranean. (Pictured here? A beach in Barneville-Carteret.) Whether you venture to the Riviera, or stick closer to the capital, the country's famed wine, cuisine, and culture might
+                        make you wonder why you'd ever go home.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://media.cntraveler.com/photos/598339c5d8b70e58cdb15f17/master/w_1600%2Cc_limit/Great_Wall_GettyImages-535657741.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>China</h5>
+                    <p>The most populous country in the world is both enormous and full of people—but it's also a cultural haven, marked by the Forbidden City and Great Wall in the capital, Beijing; the bustling East-meets-West of Shanghai; and the over-the-top
+                        opulence and coastal beauty of Hong Kong. That doesn't even begin to touch the other developing mega-cities, like Guangzhou, or the history you'll find even in the most remote parts of the nation.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://media.cntraveler.com/photos/598339cfb7a86962e8e27c5f/master/w_1600%2Cc_limit/Venice_GettyImages-178347018.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Italy</h5>
+                    <p>The epicenter of the Western World remains as popular and notable as ever, but for a variety of reasons. Forever eternal, Rome offers living history in every nook, trattoria, and ancient ruin, while the chic rival Milan serves as the
+                        modern capital of fashion and wealth. That'd be enough for most countries—but the romantic charm of Venice's canals, Florence's David, and the sheer depth of beauty found throughout Tuscany and Liguria keep visitors coming back
+                        for more.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselDestinations" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselDestinations" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
 
 
