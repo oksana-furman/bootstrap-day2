@@ -16,6 +16,10 @@ body {
     background-color: #198754;
 }
 
+.card {
+    margin: 20px;
+}
+
 .card .card-img-top {
     height: 80%;
 }
