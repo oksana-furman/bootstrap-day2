@@ -5,8 +5,32 @@
     font-family: 'Bitter', serif;
 }
 
+body {
+    background-color: aliceblue;
+}
+
+.navbar {
+    background-color: rgb(201, 225, 243);
+}
+
+.dropdown-menu {
+    background-color: rgb(201, 225, 243);
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: rgb(152, 206, 247);
+}
+
 .carousel-item>img {
     height: 600px;
+}
+
+footer {
+    background-color: rgb(201, 225, 243);
+}
+
+footer p {
+    font-size: 12px;
 }
 
 
